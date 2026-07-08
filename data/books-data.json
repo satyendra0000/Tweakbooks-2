@@ -1,0 +1,282 @@
+[
+  {
+    "title": "Naruto (Vol. 1)",
+    "author": "Masashi Kishimoto",
+    "genre": "Manga",
+    "subgenre": "Shonen / Action",
+    "summary": "Follows the early steps of Naruto Uzumaki, an orphan ninja containing a sealed demon fox, who seeks recognition to become the village Hokage.",
+    "status": "Popular"
+  },
+  {
+    "title": "One Piece (Vol. 1)",
+    "author": "Eiichiro Oda",
+    "genre": "Manga",
+    "subgenre": "Shonen / Adventure",
+    "summary": "Monkey D. Luffy eats a devil fruit and sets out to gather a crew and find the legendary treasure to become King of the Pirates.",
+    "status": "Popular"
+  },
+  {
+    "title": "Attack on Titan (Vol. 1)",
+    "author": "Hajime Isayama",
+    "genre": "Manga",
+    "subgenre": "Dark Fantasy / Action",
+    "summary": "Humans live inside massive walled cities to protect themselves from gigantic humanoid man-eating monsters called Titans.",
+    "status": "Trending"
+  },
+  {
+    "title": "Demon Slayer (Vol. 1)",
+    "author": "Koyoharu Gotouge",
+    "genre": "Manga",
+    "subgenre": "Shonen / Historical",
+    "summary": "Tanjiro Kamado sets out to become a demon slayer to cure his sister Nezuko, who has been turned into a demon.",
+    "status": "Popular"
+  },
+  {
+    "title": "Jujutsu Kaisen (Vol. 1)",
+    "author": "Gege Akutami",
+    "genre": "Manga",
+    "subgenre": "Shonen / Supernatural",
+    "summary": "High schooler Yuji Itadori swallows a cursed finger to save his friends, becoming host to the King of Curses, Ryomen Sukuna.",
+    "status": "Trending"
+  },
+  {
+    "title": "Death Note (Vol. 1)",
+    "author": "Tsugumi Ohba & Takeshi Obata",
+    "genre": "Manga",
+    "subgenre": "Psychological Thriller",
+    "summary": "A brilliant high school student discovers a supernatural notebook that allows him to kill anyone by writing their name in it.",
+    "status": "Classic"
+  },
+  {
+    "title": "Chainsaw Man (Vol. 1)",
+    "author": "Tatsuki Fujimoto",
+    "genre": "Manga",
+    "subgenre": "Action / Gore Comedy",
+    "summary": "Denji, a destitute young man, makes a contract with a chainsaw dog demon and becomes a hybrid devil hunter.",
+    "status": "Trending"
+  },
+  {
+    "title": "Fullmetal Alchemist (Vol. 1)",
+    "author": "Hiromu Arakawa",
+    "genre": "Manga",
+    "subgenre": "Steampunk / Fantasy",
+    "summary": "Two brothers search for the Philosopher's Stone to restore their bodies after a failed attempt to bring their mother back to life.",
+    "status": "Classic"
+  },
+  {
+    "title": "My Hero Academia (Vol. 1)",
+    "author": "Kohei Horikoshi",
+    "genre": "Manga",
+    "subgenre": "Superhero / Shonen",
+    "summary": "In a world where almost everyone has powers, a powerless boy is gifted a quirk by the world's greatest hero.",
+    "status": "Popular"
+  },
+  {
+    "title": "All the Young Dudes",
+    "author": "MsKingBean89",
+    "genre": "Fanfiction",
+    "subgenre": "Harry Potter / Marauders Era",
+    "summary": "A massive, widely acclaimed chronicle of Remus Lupin's years at Hogwarts and the first wizarding war.",
+    "status": "Classic"
+  },
+  {
+    "title": "Manacled",
+    "author": "SenLinYu",
+    "genre": "Fanfiction",
+    "subgenre": "Harry Potter / Dark AU",
+    "summary": "A dark, complex post-war alternate universe centering on Hermione Granger and Draco Malfoy in a dystopian wizarding world.",
+    "status": "Popular"
+  },
+  {
+    "title": "Isolation",
+    "author": "Bexchan",
+    "genre": "Fanfiction",
+    "subgenre": "Harry Potter / Romance",
+    "summary": "Hermione Granger and Draco Malfoy are confined together in a small dormitory for protection during their final year.",
+    "status": "Classic"
+  },
+  {
+    "title": "Twist and Shout",
+    "author": "Gabriel & Keira Marcos",
+    "genre": "Fanfiction",
+    "subgenre": "Supernatural / 1960s AU",
+    "summary": "A poignant, legendary 1960s alternate history romance following Dean Winchester and Castiel amidst the Vietnam War era.",
+    "status": "Classic"
+  },
+  {
+    "title": "Passerine",
+    "author": "thnk_u_nxt",
+    "genre": "Fanfiction",
+    "subgenre": "Fantasy / Mythos",
+    "summary": "A beautifully written, emotional fantasy epic about immortal brothers, royalty, and tragic destiny.",
+    "status": "Trending"
+  },
+  {
+    "title": "Concepts of Physics (Vol. 1)",
+    "author": "H.C. Verma",
+    "genre": "Educational",
+    "subgenre": "Physics / JEE Prep",
+    "summary": "The gold standard book for Indian engineering aspirants, focusing on solid concept building and numerical exercises.",
+    "status": "Academic Classic"
+  },
+  {
+    "title": "Fundamentals of Physics",
+    "author": "Halliday, Resnick & Walker",
+    "genre": "Educational",
+    "subgenre": "Physics / College Textbook",
+    "summary": "A comprehensive textbook explaining mechanics, thermodynamics, and electromagnetism with rigorous conceptual clarity.",
+    "status": "Reference"
+  },
+  {
+    "title": "Organic Chemistry",
+    "author": "Morrison & Boyd",
+    "genre": "Educational",
+    "subgenre": "Chemistry / Higher Education",
+    "summary": "A legendary textbook widely used for studying carbon compounds, mechanisms, and chemical reactions.",
+    "status": "Reference"
+  },
+  {
+    "title": "Higher Engineering Mathematics",
+    "author": "B.S. Grewal",
+    "genre": "Educational",
+    "subgenre": "Mathematics / College Level",
+    "summary": "A complete mathematical resource covering calculus, differential equations, algebra, and statistics for engineers.",
+    "status": "Standard"
+  },
+  {
+    "title": "Indian Art and Culture",
+    "author": "Nitin Singhania",
+    "genre": "Educational",
+    "subgenre": "History / UPSC Preparation",
+    "summary": "An exhaustive guide detailing the visual arts, performing arts, and literary heritage of India for competitive exams.",
+    "status": "Bestseller"
+  },
+  {
+    "title": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "genre": "Educational",
+    "subgenre": "Cosmology / Popular Science",
+    "summary": "Hawking demystifies black holes, general relativity, quantum mechanics, and the origins of the universe for general readers.",
+    "status": "Classic"
+  },
+  {
+    "title": "Cosmos",
+    "author": "Carl Sagan",
+    "genre": "Educational",
+    "subgenre": "Astronomy / Science",
+    "summary": "Sagan explores 15 billion years of cosmic evolution, tracking the rise of science, civilizations, and our place in the universe.",
+    "status": "Classic"
+  },
+  {
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "genre": "Educational",
+    "subgenre": "Software Engineering",
+    "summary": "A handbook of agile software craftsmanship that teaches how to write, read, and refactor beautiful code.",
+    "status": "Bestseller"
+  },
+  {
+    "title": "Wings of Fire",
+    "author": "A.P.J. Abdul Kalam",
+    "genre": "Biography",
+    "subgenre": "Autobiography / Inspirational",
+    "summary": "The inspiring life story of India's 'Missile Man' and former President, tracing his humble beginnings to leading space programs.",
+    "status": "Bestseller"
+  },
+  {
+    "title": "Steve Jobs",
+    "author": "Walter Isaacson",
+    "genre": "Biography",
+    "subgenre": "Tech & Business",
+    "summary": "The definitive biography of Apple's co-founder, based on hundreds of interviews, detailing his creative genius and intense drive.",
+    "status": "Bestseller"
+  },
+  {
+    "title": "The Diary of a Young Girl",
+    "author": "Anne Frank",
+    "genre": "Biography",
+    "subgenre": "Historical / Memoir",
+    "summary": "The poignant, world-famous diary of a teenage Jewish girl writing while hiding from the Nazis in occupied Amsterdam.",
+    "status": "Classic"
+  },
+  {
+    "title": "Long Walk to Freedom",
+    "author": "Nelson Mandela",
+    "genre": "Biography",
+    "subgenre": "Political Memoir",
+    "summary": "The autobiography of the South African president, describing his youth, anti-apartheid struggle, and 27 years in prison.",
+    "status": "Classic"
+  },
+  {
+    "title": "Becoming",
+    "author": "Michelle Obama",
+    "genre": "Biography",
+    "subgenre": "Memoir / Inspiration",
+    "summary": "An intimate, powerful, and inspiring memoir by the former First Lady of the United States, charting her personal journey.",
+    "status": "Bestseller"
+  },
+  {
+    "title": "Elon Musk",
+    "author": "Ashlee Vance",
+    "genre": "Biography",
+    "subgenre": "Tech & Innovation",
+    "summary": "An inside look into the life and ventures of the billionaire entrepreneur behind SpaceX, Tesla, and SolarCity.",
+    "status": "Popular"
+  },
+  {
+    "title": "Playing It My Way",
+    "author": "Sachin Tendulkar",
+    "genre": "Biography",
+    "subgenre": "Sports / Memoir",
+    "summary": "The legendary Indian cricketer shares his journey from a young boy playing in Mumbai to becoming a global icon of the game.",
+    "status": "Popular"
+  },
+  {
+    "title": "The Story of My Experiments with Truth",
+    "author": "Mahatma Gandhi",
+    "genre": "Biography",
+    "subgenre": "Autobiography / Philosophy",
+    "summary": "Gandhi's candid account of his moral, spiritual, and political experiments, forming the basis of his non-violent struggle.",
+    "status": "Classic"
+  },
+  {
+    "title": "Shoe Dog",
+    "author": "Phil Knight",
+    "genre": "Biography",
+    "subgenre": "Business / Memoir",
+    "summary": "A fascinating memoir by the creator of Nike, detailing the early struggles, chaotic partnerships, and ultimate rise of the brand.",
+    "status": "Bestseller"
+  },
+  {
+    "title": "The C++ Programming Language",
+    "author": "Bjarne Stroustrup",
+    "genre": "Educational",
+    "subgenre": "Software Engineering",
+    "summary": "The definitive guide to writing C++ programs, written by the creator of the language himself.",
+    "status": "Reference"
+  },
+  {
+    "title": "Love in the Time of Zombies",
+    "author": "Z-Writer",
+    "genre": "Fanfiction",
+    "subgenre": "Original Fiction / Romance AU",
+    "summary": "A creative post-apocalyptic romance highlighting human survival, community building, and unexpected love.",
+    "status": "New Arrival"
+  },
+  {
+    "title": "Icarus",
+    "author": "Anonymous",
+    "genre": "Fanfiction",
+    "subgenre": "Greek Mythology AU",
+    "summary": "A beautifully tragic mythological retelling set in a modern collegiate backdrop, exploring ambition and downfall.",
+    "status": "Trending"
+  },
+  {
+    "title": "The Student",
+    "author": "jsthought",
+    "genre": "Fanfiction",
+    "subgenre": "Slice-of-life AU",
+    "summary": "A heartwarming, character-focused story focusing on the academic and emotional growth of a transfer student in Tokyo.",
+    "status": "New Arrival"
+  }
+]

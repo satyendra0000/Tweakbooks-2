@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 50" width="220" height="50">
+  <!-- Book Icon group (translated for centering) -->
+  <g transform="translate(12, 10)" stroke="#244831" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Left Page -->
+    <path d="M15 30c-4-2.5-10-2.5-12-2.5V5c2 0 8 0 12 2.5Z"/>
+    <!-- Right Page -->
+    <path d="M15 30c4-2.5 10-2.5 12-2.5V5c-2 0-8 0-12 2.5Z"/>
+    <!-- Middle fold -->
+    <path d="M15 7.5V30"/>
+    <!-- Bookmark ribbon in accent terracotta -->
+    <path d="M15 12l3 3.5 3-3.5" stroke="#BA5026" stroke-width="2" />
+  </g>
+  
+  <!-- Branding Text -->
+  <text x="54" y="28" font-family="Lora, Georgia, serif" font-weight="700" font-size="20" fill="#1E1D19">Tweakbooks</text>
+  <text x="55" y="40" font-family="Inter, system-ui, sans-serif" font-weight="600" font-size="8" letter-spacing="2" fill="#BA5026">ESTD. 1996</text>
+</svg>

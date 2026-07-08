@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-book-cream text-book-charcoal font-sans antialiased selection:bg-book-gold/30 selection:text-book-charcoal;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif text-book-charcoal tracking-tight;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    background: rgba(252, 251, 247, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(110, 106, 98, 0.1);
+  }
+  
+  .glass-nav {
+    background: rgba(252, 251, 247, 0.9);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid rgba(110, 106, 98, 0.08);
+  }
+
+  .hover-lift {
+    @apply transition-all duration-300 ease-out;
+  }
+  
+  .hover-lift:hover {
+    transform: translateY(-4px);
+    @apply shadow-xl shadow-book-forest/5 border-book-forest/20;
+  }
+}

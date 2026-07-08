@@ -1,0 +1,13 @@
+{
+  "name": "tweakbooks-website",
+  "version": "1.0.0",
+  "description": "Static landing + information website for Tweakbooks Bookstore in Bardoli, Gujarat",
+  "main": "index.html",
+  "scripts": {
+    "build:css": "tailwindcss -i ./assets/css/input.css -o ./assets/css/style.css --minify",
+    "watch:css": "tailwindcss -i ./assets/css/input.css -o ./assets/css/style.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
