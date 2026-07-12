@@ -1,629 +1,542 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <!-- Primary SEO Meta Tags -->
-  <title>Tweakbooks | Premium Bookstore in Bardoli, Gujarat | Since 1996</title>
-  <meta name="description" content="Discover Tweakbooks, Bardoli's trusted neighborhood bookstore since 1996. We offer new and used books, manga, fanfiction, textbooks, biographies, book rentals, and eco-friendly book refurbishing services.">
-  <meta name="keywords" content="bookstore Bardoli, buy manga Bardoli, book rental Gujarat, buy textbooks Bardoli, refurbished books India, Magan Lal books, Tweakbooks">
-  <meta name="author" content="Magan Lal">
-  
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://tweakbooks.in/">
-  <meta property="og:title" content="Tweakbooks | Trusted Bookstore in Bardoli, Gujarat">
-  <meta property="og:description" content="Explore a rich library of Manga, Fanfiction, Textbooks, and Biographies. Join our book rental and eco-friendly refurbishing program in Bardoli since 1996.">
-  <meta property="og:image" content="https://tweakbooks.in/assets/images/logo.svg">
-
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://tweakbooks.in/">
-  <meta property="twitter:title" content="Tweakbooks | Trusted Bookstore in Bardoli, Gujarat">
-  <meta property="twitter:description" content="Explore a rich library of Manga, Fanfiction, Textbooks, and Biographies. Join our book rental and eco-friendly refurbishing program in Bardoli since 1996.">
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
-  
-  <!-- Tailwind CSS Play CDN -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            book: {
-              cream: '#FCFBF7',     // Premium paper warm cream background
-              sand: '#F4ECE1',      // Cozy warm sand tone for sections/cards
-              charcoal: '#1E1D19',  // Warm charcoal for premium readable text
-              forest: '#244831',    // Rich forest green for main branding and accents
-              terracotta: '#BA5026',// Terracotta rust orange for action CTAs
-              gold: '#C49746',      // Warm vintage gold highlights
-              muted: '#6E6A62'      // Soft gray-brown for secondary text
-            }
-          },
-          fontFamily: {
-            serif: ['Lora', 'Merriweather', 'Georgia', 'serif'],
-            sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif']
-          }
-        }
-      }
-    }
-  </script>
-  
-  <!-- Custom Styles Overrides -->
-  <link rel="stylesheet" href="assets/css/style.css">
-  
-  <!-- LocalBusiness Structured Data (JSON-LD) -->
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BookStore",
-      "name": "Tweakbooks",
-      "image": "assets/images/logo.svg",
-      "@id": "https://tweakbooks.in/#bookstore",
-      "url": "https://tweakbooks.in",
-      "telephone": "+919328291864",
-      "priceRange": "$$",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "Opp. Town Hall, Station Road",
-        "addressLocality": "Bardoli",
-        "addressRegion": "Gujarat",
-        "postalCode": "394601",
-        "addressCountry": "IN"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 21.1197,
-        "longitude": 73.1147
-      },
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday",
-          "Sunday"
-        ],
-        "opens": "10:00",
-        "closes": "21:00"
-      },
-      "sameAs": [
-        "https://wa.me/919328291864"
-      ],
-      "founder": {
-        "@type": "Person",
-        "name": "Magan Lal"
-      },
-      "foundingDate": "1996"
-    }
-  </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweakbooks | Bardoli's Premium Bookstore & Book Wiki</title>
+    <meta name="description"
+        content="Established in 1996 in Bardoli, Gujarat. Tweakbooks buys, refurbishes, sells, and rents books, mangas, educational books, and biographies. Explore our free Book Wiki dictionary.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-book-cream text-book-charcoal font-sans antialiased">
 
-  <!-- Header / Navigation -->
-  <header class="glass-nav sticky top-0 z-40 w-full transition-all duration-300">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-      <a href="index.html" class="flex items-center">
-        <img src="assets/images/logo.svg" alt="Tweakbooks Logo" class="h-10 w-auto">
-      </a>
+<body class="dark-theme">
+    <!-- Background Gradient Grids -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
 
-      <!-- Desktop Navigation -->
-      <nav class="hidden md:flex items-center space-x-8">
-        <a href="index.html" class="text-sm font-semibold text-book-forest border-b-2 border-book-forest pb-1">Home</a>
-        <a href="about.html" class="text-sm font-semibold text-book-charcoal hover:text-book-forest transition-colors">About Us</a>
-        <a href="services.html" class="text-sm font-semibold text-book-charcoal hover:text-book-forest transition-colors">Services</a>
-        <a href="genres.html" class="text-sm font-semibold text-book-charcoal hover:text-book-forest transition-colors">Genres</a>
-        <a href="book-wiki.html" class="text-sm font-semibold text-book-charcoal hover:text-book-forest transition-colors flex items-center gap-1.5">
-          Book Wiki
-          <span class="inline-flex items-center px-1.5 py-0.5 rounded text-[10px] font-bold bg-book-terracotta text-book-cream uppercase tracking-wide">Free Lookup</span>
-        </a>
-        <a href="contact.html" class="bg-book-forest text-book-cream px-5 py-2.5 rounded-lg text-sm font-semibold hover:bg-book-terracotta transition-all shadow-md shadow-book-forest/10 hover-lift">Get in Touch</a>
-      </nav>
-
-      <!-- Mobile Menu Button -->
-      <button id="menu-btn" class="md:hidden p-2 rounded-lg text-book-charcoal hover:bg-book-sand focus:outline-none focus:ring-2 focus:ring-book-forest" aria-label="Toggle menu">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
-        </svg>
-      </button>
-    </div>
-  </header>
-
-  <!-- Mobile Drawer Backdrop -->
-  <div id="menu-backdrop" class="fixed inset-0 bg-book-charcoal/40 backdrop-blur-sm z-40 hidden opacity-0 transition-opacity duration-300"></div>
-
-  <!-- Mobile Drawer Sidebar -->
-  <div id="mobile-menu" class="fixed top-0 right-0 bottom-0 w-80 max-w-[85vw] bg-book-cream shadow-2xl z-50 transform translate-x-full transition-transform duration-300 flex flex-col justify-between border-l border-book-muted/10">
-    <div class="p-6">
-      <div class="flex items-center justify-between mb-8">
-        <img src="assets/images/logo.svg" alt="Tweakbooks Logo" class="h-8 w-auto">
-        <button id="close-btn" class="p-2 rounded-lg text-book-charcoal hover:bg-book-sand focus:outline-none" aria-label="Close menu">
-          <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/>
-          </svg>
-        </button>
-      </div>
-      
-      <nav class="flex flex-col space-y-5">
-        <a href="index.html" class="text-base font-semibold text-book-forest py-2 border-b border-book-sand">Home</a>
-        <a href="about.html" class="text-base font-semibold text-book-charcoal hover:text-book-forest transition-colors py-2 border-b border-book-sand">About Us</a>
-        <a href="services.html" class="text-base font-semibold text-book-charcoal hover:text-book-forest transition-colors py-2 border-b border-book-sand">Services</a>
-        <a href="genres.html" class="text-base font-semibold text-book-charcoal hover:text-book-forest transition-colors py-2 border-b border-book-sand">Genres</a>
-        <a href="book-wiki.html" class="text-base font-semibold text-book-charcoal hover:text-book-forest transition-colors py-2 border-b border-book-sand flex items-center justify-between">
-          Book Wiki
-          <span class="inline-flex items-center px-1.5 py-0.5 rounded text-[9px] font-bold bg-book-terracotta text-book-cream uppercase tracking-wide">Free Lookup</span>
-        </a>
-      </nav>
-    </div>
-    
-    <div class="p-6 border-t border-book-sand">
-      <a href="contact.html" class="block w-full text-center bg-book-forest text-book-cream py-3 rounded-lg text-sm font-semibold hover:bg-book-terracotta transition-colors shadow-md shadow-book-forest/10 mb-4">Get in Touch</a>
-      <div class="text-center text-xs text-book-muted">
-        <p class="font-medium text-book-charcoal mb-1">Tweakbooks Bookstore</p>
-        <p>Bardoli, Gujarat | Since 1996</p>
-      </div>
-    </div>
-  </div>
-
-  <main>
-    <!-- Hero Section -->
-    <section class="relative pt-12 pb-20 md:pt-20 md:pb-32 overflow-hidden bg-gradient-to-b from-book-sand/30 to-book-cream">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-        <!-- Text Content -->
-        <div class="lg:col-span-7 text-center lg:text-left">
-          <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-book-forest/10 text-book-forest text-xs font-bold uppercase tracking-wider mb-6">
-            <span class="w-2 h-2 rounded-full bg-book-forest animate-ping"></span>
-            Bardoli's Literary Sanctuary Since 1996
-          </span>
-          <h1 class="text-4xl md:text-6xl font-extrabold text-book-charcoal leading-tight font-serif mb-6">
-            Where Every Page <br>
-            <span class="text-book-forest italic">Finds a New Home</span>
-          </h1>
-          <p class="text-base md:text-lg text-book-muted max-w-xl mx-auto lg:mx-0 mb-8 leading-relaxed">
-            Welcome to Tweakbooks, the heart of Bardoli's reading community. We buy, sell, rent, and expertly refurbish physical books. From popular Manga to custom Fanfiction, engineering guides to biographies, find your next read with a local touch.
-          </p>
-          <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
-            <a href="book-wiki.html" class="w-full sm:w-auto text-center bg-book-terracotta text-book-cream px-8 py-3.5 rounded-xl text-base font-bold hover:bg-book-forest transition-all shadow-lg shadow-book-terracotta/25 hover-lift">
-              Explore Book Wiki
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-tweak">tweak</span><span class="logo-books">books</span>
+                <span class="logo-dot">.</span>
             </a>
-            <a href="tel:+919328291864" class="w-full sm:w-auto text-center bg-book-sand/80 hover:bg-book-sand text-book-charcoal border border-book-muted/20 px-8 py-3.5 rounded-xl text-base font-bold transition-all hover-lift">
-              Call Store Now
-            </a>
-          </div>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#genres" class="nav-item">Genres</a>
+                <a href="#services" class="nav-item">Our Services</a>
+                <a href="#calculators" class="nav-item">Calculators</a>
+                <a href="#wiki" class="nav-item">Book Wiki</a>
+                <a href="#contact" class="nav-item">Contact Us</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle Theme">
+                    <i data-lucide="sun" class="sun-icon"></i>
+                    <i data-lucide="moon" class="moon-icon"></i>
+                </button>
+                <a href="https://wa.me/919328291864" class="btn btn-primary nav-cta-btn" target="_blank"
+                    rel="noopener noreferrer">
+                    <i data-lucide="phone"></i>
+                    <span>Enquire Now</span>
+                </a>
+                <button class="menu-toggle" id="menuToggle" aria-label="Open Menu">
+                    <i data-lucide="menu" class="menu-open"></i>
+                    <i data-lucide="x" class="menu-close"></i>
+                </button>
+            </div>
         </div>
+    </header>
 
-        <!-- Illustration Graphic -->
-        <div class="lg:col-span-5 flex justify-center relative">
-          <!-- Ambient gold background light glow -->
-          <div class="absolute w-72 h-72 rounded-full bg-book-gold/15 filter blur-3xl -z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></div>
-          
-          <!-- Graphic Container representing book layout -->
-          <div class="glass-card p-8 rounded-3xl w-full max-w-sm border border-book-muted/10 shadow-2xl relative">
-            <div class="flex justify-between items-start mb-6">
-              <span class="text-[10px] uppercase font-bold tracking-widest text-book-terracotta">Book Spotlight</span>
-              <span class="text-xs font-bold text-book-forest px-2 py-0.5 rounded bg-book-forest/10">Popular</span>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="badge">
+                        <i data-lucide="sparkles"></i>
+                        <span>Bardoli's Literary Hub Since 1996</span>
+                    </div>
+                    <h1>Your Books, <br><span class="gradient-text">Refurbished</span> &amp; Rentable.</h1>
+                    <p class="hero-lead">
+                        Welcome to Tweakbooks, Bardoli's beloved local bookstore. We buy your old books, refurbish them,
+                        and sell them at a fraction of the cost. We also rent books daily and house a huge catalog for
+                        book lovers!
+                    </p>
+                    <div class="hero-ctas">
+                        <a href="#wiki" class="btn btn-primary btn-lg">
+                            <i data-lucide="search"></i>
+                            <span>Search Book Wiki</span>
+                        </a>
+                        <a href="#calculators" class="btn btn-secondary btn-lg">
+                            <i data-lucide="calculator"></i>
+                            <span>Rent/Refurbish Calculator</span>
+                        </a>
+                    </div>
+                    <div class="hero-trust">
+                        <div class="trust-avatars">
+                            <div class="avatar">📚</div>
+                            <div class="avatar">📖</div>
+                            <div class="avatar">⚡</div>
+                        </div>
+                        <p class="trust-text">Join <strong>45+ daily recurring customers</strong> in Gujarat!</p>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-card-glow"></div>
+                    <div class="hero-image-wrapper">
+                        <!-- We reference the image we generated -->
+                        <img src="assets/hero.png" alt="Tweakbooks Cozy Bookstore" class="hero-image">
+                        <div class="floating-badge badge-1">
+                            <i data-lucide="book-open"></i>
+                            <div>
+                                <h4>Manga &amp; Fanfics</h4>
+                                <p>Popular Anime Series</p>
+                            </div>
+                        </div>
+                        <div class="floating-badge badge-2">
+                            <i data-lucide="refresh-cw"></i>
+                            <div>
+                                <h4>Eco-Refurbished</h4>
+                                <p>Buy for less</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            
-            <div class="border-l-4 border-book-forest pl-4 mb-6">
-              <h4 class="text-2xl font-bold font-serif text-book-charcoal">Wings of Fire</h4>
-              <p class="text-xs text-book-muted mt-0.5">by A.P.J. Abdul Kalam</p>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats-section">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon-wrapper"><i data-lucide="calendar"></i></div>
+                        <div class="stat-details">
+                            <h3>1996</h3>
+                            <p>Established Bookstore</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon-wrapper"><i data-lucide="users"></i></div>
+                        <div class="stat-details">
+                            <h3>45+ Daily</h3>
+                            <p>Recurring Readers</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon-wrapper"><i data-lucide="map-pin"></i></div>
+                        <div class="stat-details">
+                            <h3>Bardoli, GJ</h3>
+                            <p>Located in Gujarat, India</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon-wrapper"><i data-lucide="book-check"></i></div>
+                        <div class="stat-details">
+                            <h3>Refurbished</h3>
+                            <p>Saves up to 60%</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            
-            <p class="text-sm text-book-charcoal/80 italic leading-relaxed mb-6 font-serif">
-              "We are all born with a divine fire in us. Our effort should be to give wings to this fire..."
-            </p>
-            
-            <div class="flex items-center justify-between text-xs pt-4 border-t border-book-sand text-book-muted font-semibold">
-              <span>Established 1996</span>
-              <span>Available in Rent & Buy</span>
+        </section>
+
+        <!-- Genres Section -->
+        <section id="genres" class="genres-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge">Our Collection</div>
+                    <h2>Explore Popular Genres</h2>
+                    <p class="section-desc">From visual storytelling to educational materials, we source the best titles
+                        for our readers in Bardoli.</p>
+                </div>
+                <div class="genres-grid">
+                    <div class="genre-card" data-genre="Manga">
+                        <div class="genre-icon"><i data-lucide="swords"></i></div>
+                        <h3>Anime Mangas</h3>
+                        <p>Popular series like Naruto, Jujutsu Kaisen, Demon Slayer, and One Piece. Experience rich
+                            illustration storytelling.</p>
+                        <span class="genre-link">Search Mangas <i data-lucide="arrow-right"></i></span>
+                    </div>
+                    <div class="genre-card" data-genre="Fanfiction">
+                        <div class="genre-icon"><i data-lucide="feather"></i></div>
+                        <h3>Fanfiction</h3>
+                        <p>Imaginative spin-offs, creative romance adaptations, and custom lore written by fans around
+                            the globe.</p>
+                        <span class="genre-link">Search Fanfics <i data-lucide="arrow-right"></i></span>
+                    </div>
+                    <div class="genre-card" data-genre="Education">
+                        <div class="genre-icon"><i data-lucide="graduation-cap"></i></div>
+                        <h3>Educational</h3>
+                        <p>Academic books, programming guides, entrance exam prep, and regional text books to empower
+                            student learning.</p>
+                        <span class="genre-link">Search Academic <i data-lucide="arrow-right"></i></span>
+                    </div>
+                    <div class="genre-card" data-genre="Biography">
+                        <div class="genre-icon"><i data-lucide="user-check"></i></div>
+                        <h3>Biographies</h3>
+                        <p>Inspiring memoirs, diaries, and stories of extraordinary people who shaped history, tech, and
+                            science.</p>
+                        <span class="genre-link">Search Memoirs <i data-lucide="arrow-right"></i></span>
+                    </div>
+                </div>
             </div>
-          </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge">How We Work</div>
+                    <h2>Unique Bookstore Services</h2>
+                    <p class="section-desc">We make reading affordable, circular, and green. Discover how we buy, rent,
+                        and discount.</p>
+                </div>
+
+                <div class="services-showcase">
+                    <!-- Sell and Refurbish Showcase -->
+                    <div class="showcase-card refurbish-showcase">
+                        <div class="showcase-content">
+                            <div class="showcase-icon"><i data-lucide="refresh-cw"></i></div>
+                            <h3>Buy-Back &amp; Refurbishing Cycle</h3>
+                            <p>Don't let your finished books collect dust. Bring them to Tweakbooks! Owner Magan Lal
+                                buys back books in any condition. Our refurbishment process restores them:</p>
+                            <ul class="benefit-list">
+                                <li><i data-lucide="check-circle-2"></i> Page cleaning and edge polishing.</li>
+                                <li><i data-lucide="check-circle-2"></i> Binding reinforcement and cover repair.</li>
+                                <li><i data-lucide="check-circle-2"></i> Re-sold at 40-60% lower prices, saving your
+                                    wallet and the planet.</li>
+                            </ul>
+                            <a href="#calculators" class="btn btn-secondary">
+                                <span>Get Buyback Estimate</span>
+                                <i data-lucide="arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="showcase-image-wrapper">
+                            <img src="assets/refurbish.png" alt="Book Refurbishing Process" class="showcase-image">
+                        </div>
+                    </div>
+
+                    <!-- Rental & Discount Grid -->
+                    <div class="services-subgrid">
+                        <div class="service-card rent-card">
+                            <div class="service-icon"><i data-lucide="hourglass"></i></div>
+                            <h3>Rent Per Day</h3>
+                            <p>Only want to read once? Rent books on a daily rate starting at just **₹3 per day**! Ideal
+                                for fast readers, manga volumes, and exam guides. Simply pay a refundable deposit and
+                                pick up your book.</p>
+                            <a href="#calculators" class="btn-link">Calculate Rental Cost <i
+                                    data-lucide="chevron-right"></i></a>
+                        </div>
+
+                        <div class="service-card discount-card">
+                            <div class="service-icon"><i data-lucide="gift"></i></div>
+                            <h3>Festive Discounts</h3>
+                            <p>We celebrate all major festivals in Gujarat with heavy discounts! Enjoy special book
+                                bundles during Navratri, Diwali, and New Year, plus dynamic cashbacks on refurbish
+                                trades.</p>
+                            <div class="current-deal">
+                                <span class="deal-tag">Active Offer</span>
+                                <p><strong>Navratri Read-a-thon:</strong> Get 20% discount on book rental bookings
+                                    longer than 10 days!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Calculators Section -->
+        <section id="calculators" class="calculators-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge">Interactive Tools</div>
+                    <h2>Cost &amp; Buyback Estimators</h2>
+                    <p class="section-desc">Estimate your costs instantly. When you are ready, send the prefilled
+                        details directly to Magan Lal on WhatsApp.</p>
+                </div>
+
+                <div class="calculator-container">
+                    <div class="calc-tabs">
+                        <button class="calc-tab active" id="tabRent">
+                            <i data-lucide="clock"></i>
+                            <span>Book Rental Calculator</span>
+                        </button>
+                        <button class="calc-tab" id="tabRefurbish">
+                            <i data-lucide="refresh-cw"></i>
+                            <span>Refurbish &amp; Sell Estimator</span>
+                        </button>
+                    </div>
+
+                    <!-- Rental Calculator Body -->
+                    <div class="calc-body active" id="rentCalcBody">
+                        <div class="calc-grid">
+                            <div class="calc-inputs">
+                                <div class="form-group">
+                                    <label for="rentCategory">Select Book Genre/Type</label>
+                                    <select id="rentCategory" class="form-control">
+                                        <option value="Manga">Manga (₹5 / day)</option>
+                                        <option value="Fanfiction">Fanfiction (₹3 / day)</option>
+                                        <option value="Education" selected>Educational (₹10 / day)</option>
+                                        <option value="Biography">Biography (₹7 / day)</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="rentDays">Rental Duration (in Days)</label>
+                                    <input type="number" id="rentDays" class="form-control" min="1" max="180" value="7">
+                                </div>
+                                <div class="form-group">
+                                    <label for="rentBookName">Book Title (Optional)</label>
+                                    <input type="text" id="rentBookName" class="form-control"
+                                        placeholder="e.g., Naruto Vol 1, Steve Jobs Biography">
+                                </div>
+                            </div>
+                            <div class="calc-outputs">
+                                <h4>Rental Breakdown</h4>
+                                <div class="output-row">
+                                    <span>Rate per day:</span>
+                                    <span class="val" id="rentRateVal">₹10</span>
+                                </div>
+                                <div class="output-row">
+                                    <span>Base Rental Fee:</span>
+                                    <span class="val" id="rentBaseFee">₹70</span>
+                                </div>
+                                <div class="output-row highlight-row">
+                                    <span>Refundable Security Deposit:</span>
+                                    <span class="val" id="rentDeposit">₹150</span>
+                                </div>
+                                <hr>
+                                <div class="output-row total-row">
+                                    <span>Total Initial Payable:</span>
+                                    <span class="val total-val" id="rentTotal">₹220</span>
+                                </div>
+                                <button class="btn btn-primary btn-block" id="btnRentWhatsApp">
+                                    <i data-lucide="message-square"></i>
+                                    <span>Book Rent Reservation</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Refurbish Calculator Body -->
+                    <div class="calc-body" id="refurbishCalcBody">
+                        <div class="calc-grid">
+                            <div class="calc-inputs">
+                                <div class="form-group">
+                                    <label for="bookOriginalPrice">Original Printed Retail Price (₹)</label>
+                                    <input type="number" id="bookOriginalPrice" class="form-control" min="50" max="5000"
+                                        value="500">
+                                </div>
+                                <div class="form-group">
+                                    <label for="bookCondition">Book Condition</label>
+                                    <select id="bookCondition" class="form-control">
+                                        <option value="mint">Mint (Almost brand new, no markings)</option>
+                                        <option value="good" selected>Good (Minor wear, completely readable)</option>
+                                        <option value="fair">Fair (Bent covers, yellowed/stained pages)</option>
+                                        <option value="poor">Poor (Damaged spine, loose pages, tape repairs)</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="sellBookName">Book Title &amp; Author</label>
+                                    <input type="text" id="sellBookName" class="form-control"
+                                        placeholder="e.g., Harry Potter, NCERT Physics XII">
+                                </div>
+                            </div>
+                            <div class="calc-outputs">
+                                <h4>Trade Estimate</h4>
+                                <div class="output-row">
+                                    <span>Estimated Buy-Back Rate:</span>
+                                    <span class="val" id="buybackRateVal">40%</span>
+                                </div>
+                                <div class="output-row">
+                                    <span>Tweakbooks Buy-Back Offer:</span>
+                                    <span class="val highlight-green" id="buybackOfferVal">₹200</span>
+                                </div>
+                                <div class="output-row">
+                                    <span>Estimated Refurbishing Cost:</span>
+                                    <span class="val" id="refurbishCostVal">₹50</span>
+                                </div>
+                                <p class="calc-disclaimer">*Final evaluation is done physically by Magan Lal at the
+                                    bookstore store counters.</p>
+                                <button class="btn btn-primary btn-block" id="btnRefurbishWhatsApp">
+                                    <i data-lucide="message-square"></i>
+                                    <span>Submit Estimate on WhatsApp</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Book Wiki Section -->
+        <section id="wiki" class="wiki-section section-padding">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge">Store Feature</div>
+                    <h2>Tweakbooks Wikipedia</h2>
+                    <p class="section-desc">Search details, characters, and descriptions. Check our local stock or
+                        search OpenLibrary database instantly.</p>
+                </div>
+
+                <div class="wiki-container">
+                    <div class="wiki-search-box">
+                        <div class="search-input-wrapper">
+                            <i data-lucide="search" class="search-icon"></i>
+                            <input type="text" id="wikiSearchInput"
+                                placeholder="Type book title, author, manga or character name (e.g. One Piece, Kalam, Steve Jobs)...">
+                            <button id="wikiClearBtn" class="clear-btn" aria-label="Clear Search"><i
+                                    data-lucide="x"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- Category Quick Filters -->
+                    <div class="wiki-filters">
+                        <button class="filter-pill active" data-filter="all">All Genres</button>
+                        <button class="filter-pill" data-filter="Manga">Anime Manga</button>
+                        <button class="filter-pill" data-filter="Fanfiction">Fanfiction</button>
+                        <button class="filter-pill" data-filter="Education">Educational</button>
+                        <button class="filter-pill" data-filter="Biography">Biography</button>
+                    </div>
+
+                    <div class="wiki-results-header">
+                        <span id="resultsCount">Showing featured books</span>
+                        <span id="searchSourceBadge" class="source-badge">Local Database</span>
+                    </div>
+
+                    <!-- Wiki Results Grid -->
+                    <div class="wiki-results-grid" id="wikiResultsGrid">
+                        <!-- Dynamic Results Populated via JS -->
+                    </div>
+
+                    <!-- Loading / Error States -->
+                    <div class="wiki-state-msg hidden" id="wikiStateMsg">
+                        <div class="spinner"></div>
+                        <p class="msg-text">Searching OpenLibrary database...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container contact-grid">
+                <div class="contact-info">
+                    <div class="section-badge">Get In Touch</div>
+                    <h2>Visit Tweakbooks Store</h2>
+                    <p class="contact-lead">Have questions about rentals, selling your books, or looking for a specific
+                        title? Reach out to Magan Lal directly or drop by our store in Bardoli.</p>
+
+                    <div class="contact-cards">
+                        <a href="tel:9328291864" class="contact-card">
+                            <div class="contact-card-icon"><i data-lucide="phone-call"></i></div>
+                            <div class="contact-card-details">
+                                <span>Owner: Magan Lal</span>
+                                <h4>+91 9328291864</h4>
+                                <p>Call for general store enquiries</p>
+                            </div>
+                        </a>
+                        <a href="https://wa.me/919328291864" class="contact-card" target="_blank"
+                            rel="noopener noreferrer">
+                            <div class="contact-card-icon whatsapp-icon"><i data-lucide="message-circle"></i></div>
+                            <div class="contact-card-details">
+                                <span>WhatsApp Support</span>
+                                <h4>Chat with Us</h4>
+                                <p>Fast response for rental availability</p>
+                            </div>
+                        </a>
+                        <div class="contact-card">
+                            <div class="contact-card-icon"><i data-lucide="clock"></i></div>
+                            <div class="contact-card-details">
+                                <span>Business Hours</span>
+                                <h4>9:00 AM – 8:00 PM</h4>
+                                <div class="store-status" id="storeStatus">
+                                    <span class="status-indicator"></span>
+                                    <span class="status-text">Checking hours...</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-map-wrapper">
+                    <div class="map-card-glow"></div>
+                    <div class="map-container">
+                        <div class="map-header">
+                            <i data-lucide="map-pin"></i>
+                            <div>
+                                <h4>Tweakbooks Store Location</h4>
+                                <p>Near Station Road, Bardoli, Gujarat - 394601, India</p>
+                            </div>
+                        </div>
+                        <!-- Embedded OSM / Interactive mockup Map -->
+                        <div class="map-iframe-container">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14890.310619894757!2d73.1091564!3d21.1094895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be060b13cf4a5d3%3A0xe54e60bc21b33bb!2sBardoli%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1688647000000!5m2!1sen!2sin"
+                                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"
+                                title="Google Map Location of Bardoli, Gujarat">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <span class="logo-tweak">tweak</span><span class="logo-books">books</span><span
+                        class="logo-dot">.</span>
+                </a>
+                <p>Empowering readers in Bardoli since 1996 with high-quality refurbished books, mangas, educational
+                    books, and a comprehensive book wiki encyclopedia.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+                    <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-links-grid">
+                <div class="footer-links-col">
+                    <h4>Explore</h4>
+                    <a href="#genres">Book Genres</a>
+                    <a href="#services">Services</a>
+                    <a href="#calculators">Pricing Estimator</a>
+                    <a href="#wiki">Book Wiki</a>
+                </div>
+                <div class="footer-links-col">
+                    <h4>Support &amp; Legal</h4>
+                    <a href="#contact">Contact</a>
+                    <a href="#">Rental Policy</a>
+                    <a href="#">Buyback Terms</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
         </div>
-      </div>
-    </section>
-
-    <!-- Trust / Statistics Bar -->
-    <section class="bg-book-forest text-book-cream py-8 relative">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4 divide-y-0 divide-x-0 md:divide-x divide-book-cream/15 text-center">
-          <div class="px-4">
-            <p class="text-3xl md:text-4xl font-extrabold font-serif text-book-gold">Since 1996</p>
-            <p class="text-xs uppercase tracking-widest text-book-cream/80 mt-1 font-semibold">29+ Years of Trust</p>
-          </div>
-          <div class="px-4 pt-4 md:pt-0">
-            <p class="text-3xl md:text-4xl font-extrabold font-serif text-book-gold">45+</p>
-            <p class="text-xs uppercase tracking-widest text-book-cream/80 mt-1 font-semibold">Loyal Daily Regulars</p>
-          </div>
-          <div class="px-4 pt-4 md:pt-0">
-            <p class="text-3xl md:text-4xl font-extrabold font-serif text-book-gold">4 Core</p>
-            <p class="text-xs uppercase tracking-widest text-book-cream/80 mt-1 font-semibold">Curated Book Genres</p>
-          </div>
-          <div class="px-4 pt-4 md:pt-0">
-            <p class="text-3xl md:text-4xl font-extrabold font-serif text-book-gold">100%</p>
-            <p class="text-xs uppercase tracking-widest text-book-cream/80 mt-1 font-semibold">Eco-Recycling & Care</p>
-          </div>
+        <hr class="footer-divider">
+        <div class="container footer-bottom">
+            <p>&copy; 2026 Tweakbooks Bookstore. All Rights Reserved. Owned by Magan Lal.</p>
+            <p class="built-by">Made for readers in Bardoli, Gujarat</p>
         </div>
-      </div>
-    </section>
+    </footer>
 
-    <!-- Services Overview -->
-    <section class="py-20 bg-book-cream">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center max-w-3xl mx-auto mb-16">
-          <h2 class="text-3xl md:text-4xl font-extrabold font-serif text-book-charcoal mb-4">Complete Literary Services</h2>
-          <p class="text-book-muted text-base">At Tweakbooks, we go beyond simple book retailing. We sustain the cycle of reading by providing budget-friendly renting, eco-friendly refurbishing, and lucrative buybacks.</p>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <!-- Service 1 -->
-          <div class="glass-card hover-lift p-8 rounded-2xl border border-book-muted/10">
-            <div class="w-12 h-12 rounded-xl bg-book-forest/10 flex items-center justify-center text-book-forest mb-6">
-              <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25"/></svg>
-            </div>
-            <h3 class="text-xl font-bold font-serif text-book-charcoal mb-3">Buy New & Used Books</h3>
-            <p class="text-sm text-book-muted leading-relaxed mb-6">Explore shelf after shelf of brand new editions or quality used copies across manga, fanfiction, educational textbooks, and biographies.</p>
-            <a href="services.html" class="text-xs font-bold text-book-forest hover:text-book-terracotta transition-colors flex items-center gap-1">Learn More &rarr;</a>
-          </div>
-
-          <!-- Service 2 -->
-          <div class="glass-card hover-lift p-8 rounded-2xl border border-book-muted/10">
-            <div class="w-12 h-12 rounded-xl bg-book-forest/10 flex items-center justify-center text-book-forest mb-6">
-              <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 15L3 9m0 0l6-6M3 9h12a6 6 0 010 12h-3"/></svg>
-            </div>
-            <h3 class="text-xl font-bold font-serif text-book-charcoal mb-3">Sell-Back Program</h3>
-            <p class="text-sm text-book-muted leading-relaxed mb-6">Clean your shelves and earn. Bring back books you have read and get instant cash evaluation or store credit on the spot with Magan Lal.</p>
-            <a href="services.html" class="text-xs font-bold text-book-forest hover:text-book-terracotta transition-colors flex items-center gap-1">Learn More &rarr;</a>
-          </div>
-
-          <!-- Service 3 -->
-          <div class="glass-card hover-lift p-8 rounded-2xl border border-book-muted/10">
-            <div class="w-12 h-12 rounded-xl bg-book-forest/10 flex items-center justify-center text-book-forest mb-6">
-              <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99"/></svg>
-            </div>
-            <h3 class="text-xl font-bold font-serif text-book-charcoal mb-3">Care &amp; Refurbishing</h3>
-            <p class="text-sm text-book-muted leading-relaxed mb-6">We repair, bind, and clean worn books to look and read like new. Support circular reading and pick up structurally restored books for cheap.</p>
-            <a href="services.html" class="text-xs font-bold text-book-forest hover:text-book-terracotta transition-colors flex items-center gap-1">Learn More &rarr;</a>
-          </div>
-
-          <!-- Service 4 -->
-          <div class="glass-card hover-lift p-8 rounded-2xl border border-book-muted/10">
-            <div class="w-12 h-12 rounded-xl bg-book-forest/10 flex items-center justify-center text-book-forest mb-6">
-              <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-            </div>
-            <h3 class="text-xl font-bold font-serif text-book-charcoal mb-3">Book Rentals</h3>
-            <p class="text-sm text-book-muted leading-relaxed mb-6">Perfect for students and manga binge-readers. Take home books on an affordable per-day rental basis without spending full retail price.</p>
-            <a href="services.html" class="text-xs font-bold text-book-forest hover:text-book-terracotta transition-colors flex items-center gap-1">Learn More &rarr;</a>
-          </div>
-
-          <!-- Service 5 -->
-          <div class="glass-card hover-lift p-8 rounded-2xl border border-book-muted/10">
-            <div class="w-12 h-12 rounded-xl bg-book-forest/10 flex items-center justify-center text-book-forest mb-6">
-              <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581a1.44 1.44 0 002.036 0l4.319-4.319a1.44 1.44 0 000-2.036l-9.58-9.58A2.25 2.25 0 009.568 3z"/><path stroke-linecap="round" stroke-linejoin="round" d="M6 7.5h.008v.008H6V7.5z"/></svg>
-            </div>
-            <h3 class="text-xl font-bold font-serif text-book-charcoal mb-3">Festive Discounts</h3>
-            <p class="text-sm text-book-muted leading-relaxed mb-6">We host seasonal promotional discounts during local festivals like Diwali, Holi, and Back-to-School seasons to make reading affordable.</p>
-            <a href="services.html" class="text-xs font-bold text-book-forest hover:text-book-terracotta transition-colors flex items-center gap-1">Learn More &rarr;</a>
-          </div>
-
-          <!-- Service 6 -->
-          <div class="glass-card hover-lift p-8 rounded-2xl border border-book-muted/10">
-            <div class="w-12 h-12 rounded-xl bg-book-forest/10 flex items-center justify-center text-book-forest mb-6">
-              <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
-            </div>
-            <h3 class="text-xl font-bold font-serif text-book-charcoal mb-3">Book Wiki lookup</h3>
-            <p class="text-sm text-book-muted leading-relaxed mb-6">Our in-house offline collection index. Look up book summaries, genre classifications, authors, and verify what titles we stock in real time.</p>
-            <a href="book-wiki.html" class="text-xs font-bold text-book-forest hover:text-book-terracotta transition-colors flex items-center gap-1">Launch Wiki &rarr;</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Genre Categories Highlight -->
-    <section class="py-20 bg-book-sand/30">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="flex flex-col md:flex-row md:items-end justify-between mb-16">
-          <div class="max-w-xl text-center md:text-left mb-6 md:mb-0">
-            <h2 class="text-3xl md:text-4xl font-extrabold font-serif text-book-charcoal mb-4">Stocked Genres</h2>
-            <p class="text-book-muted text-sm">We specialize in four core categories. Whether looking for international manga boxsets or essential academic resources, Tweakbooks has you covered.</p>
-          </div>
-          <a href="genres.html" class="inline-flex items-center gap-2 text-sm font-bold text-book-forest hover:text-book-terracotta transition-all self-center md:self-auto">
-            Browse Genres Directory
-            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
-          </a>
-        </div>
-
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-          <!-- Manga Card -->
-          <div class="glass-card hover-lift overflow-hidden rounded-2xl border border-book-muted/10 flex flex-col justify-between p-6">
-            <div>
-              <span class="text-[9px] uppercase tracking-wider font-extrabold text-book-terracotta bg-book-terracotta/10 px-2 py-0.5 rounded mb-4 inline-block">Popular in Store</span>
-              <h3 class="text-2xl font-bold font-serif text-book-charcoal mb-2">Manga</h3>
-              <p class="text-xs text-book-muted leading-relaxed mb-6">Naruto, One Piece, Attack on Titan, Demon Slayer, Jujutsu Kaisen, and more. Collected volumes available for direct purchase or rental.</p>
-            </div>
-            <a href="genres.html#manga" class="text-xs font-bold text-book-forest hover:text-book-terracotta transition-colors">See titles &rarr;</a>
-          </div>
-
-          <!-- Fanfiction Card -->
-          <div class="glass-card hover-lift overflow-hidden rounded-2xl border border-book-muted/10 flex flex-col justify-between p-6">
-            <div>
-              <span class="text-[9px] uppercase tracking-wider font-extrabold text-book-forest bg-book-forest/10 px-2 py-0.5 rounded mb-4 inline-block">Unique Stock</span>
-              <h3 class="text-2xl font-bold font-serif text-book-charcoal mb-2">Fanfiction</h3>
-              <p class="text-xs text-book-muted leading-relaxed mb-6">Physically bound editions of famous internet fan-novels. Hard-to-find indie prints and community favorites bound for personal archiving.</p>
-            </div>
-            <a href="genres.html#fanfiction" class="text-xs font-bold text-book-forest hover:text-book-terracotta transition-colors">See titles &rarr;</a>
-          </div>
-
-          <!-- Educational Card -->
-          <div class="glass-card hover-lift overflow-hidden rounded-2xl border border-book-muted/10 flex flex-col justify-between p-6">
-            <div>
-              <span class="text-[9px] uppercase tracking-wider font-extrabold text-book-gold bg-book-gold/15 text-book-charcoal/90 px-2 py-0.5 rounded mb-4 inline-block">Student Special</span>
-              <h3 class="text-2xl font-bold font-serif text-book-charcoal mb-2">Educational</h3>
-              <p class="text-xs text-book-muted leading-relaxed mb-6">School & college text guides, reference materials, standard engineering mathematics, physics prep, and competitive exam books (JEE, UPSC).</p>
-            </div>
-            <a href="genres.html#educational" class="text-xs font-bold text-book-forest hover:text-book-terracotta transition-colors">See titles &rarr;</a>
-          </div>
-
-          <!-- Biography Card -->
-          <div class="glass-card hover-lift overflow-hidden rounded-2xl border border-book-muted/10 flex flex-col justify-between p-6">
-            <div>
-              <span class="text-[9px] uppercase tracking-wider font-extrabold text-book-muted bg-book-sand px-2 py-0.5 rounded mb-4 inline-block">Inspirational</span>
-              <h3 class="text-2xl font-bold font-serif text-book-charcoal mb-2">Biography</h3>
-              <p class="text-xs text-book-muted leading-relaxed mb-6">Read real stories of resilience and greatness. Featuring autobiographies of Kalam, Steve Jobs, Nelson Mandela, Anne Frank, and Sachin Tendulkar.</p>
-            </div>
-            <a href="genres.html#biography" class="text-xs font-bold text-book-forest hover:text-book-terracotta transition-colors">See titles &rarr;</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Why Choose Us -->
-    <section class="py-20 bg-book-cream">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-        <div class="lg:col-span-6 space-y-6">
-          <h2 class="text-3xl md:text-4xl font-extrabold font-serif text-book-charcoal leading-tight">
-            Preserving Reading Heritage <br class="hidden sm:inline">
-            <span class="text-book-forest italic">With Eco-Conscious Value</span>
-          </h2>
-          <p class="text-book-muted text-base leading-relaxed">
-            Since opening our doors in 1996, Magan Lal's goal has been to make reading accessible. Our core values combine legacy trust with sustainable ecological practices.
-          </p>
-          
-          <div class="space-y-4">
-            <div class="flex items-start gap-4">
-              <span class="w-6 h-6 rounded-full bg-book-forest/10 flex items-center justify-center text-book-forest shrink-0 text-xs font-bold mt-1">1</span>
-              <div>
-                <h4 class="font-bold text-book-charcoal">Recycle &amp; Restructure (Sustainability)</h4>
-                <p class="text-sm text-book-muted leading-relaxed mt-0.5">We prevent book discard by purchasing used copies and restoring them carefully, reducing global paper waste in Bardoli.</p>
-              </div>
-            </div>
-            <div class="flex items-start gap-4">
-              <span class="w-6 h-6 rounded-full bg-book-forest/10 flex items-center justify-center text-book-forest shrink-0 text-xs font-bold mt-1">2</span>
-              <div>
-                <h4 class="font-bold text-book-charcoal">Budget-Friendly Rentals</h4>
-                <p class="text-sm text-book-muted leading-relaxed mt-0.5">Our rental options enable students and casual readers to access reference materials and series without paying high retail prices.</p>
-              </div>
-            </div>
-            <div class="flex items-start gap-4">
-              <span class="w-6 h-6 rounded-full bg-book-forest/10 flex items-center justify-center text-book-forest shrink-0 text-xs font-bold mt-1">3</span>
-              <div>
-                <h4 class="font-bold text-book-charcoal">29+ Years of Neighborhood trust</h4>
-                <p class="text-sm text-book-muted leading-relaxed mt-0.5">We know our customers. Magan Lal has provided personalized reading suggestions and support to generations of students and booklovers.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="lg:col-span-6 relative">
-          <!-- Stylized background badge structure -->
-          <div class="glass-card p-8 rounded-3xl border border-book-muted/10 shadow-xl max-w-md mx-auto">
-            <div class="flex items-center gap-4 mb-6">
-              <!-- Avatar placeholder -->
-              <div class="w-16 h-16 rounded-full bg-book-sand flex items-center justify-center text-book-forest font-serif font-extrabold text-2xl border border-book-muted/10">ML</div>
-              <div>
-                <h4 class="font-bold text-lg text-book-charcoal">Magan Lal</h4>
-                <p class="text-xs text-book-muted">Founder &amp; Proprietor</p>
-              </div>
-            </div>
-            <p class="text-sm italic text-book-charcoal/90 leading-relaxed font-serif mb-4">
-              "When I started Tweakbooks in 1996, books were hard to source locally in Bardoli. Over the past three decades, we have connected thousands of readers. By offering buyback and repair services, we keep the spirit of physical pages alive sustainably."
-            </p>
-            <span class="text-[10px] uppercase font-bold tracking-widest text-book-terracotta">Established in Bardoli</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Festive Discount Callout Banner -->
-    <section class="py-12 bg-book-sand/30">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="bg-gradient-to-r from-book-forest to-book-forest/90 rounded-3xl p-8 md:p-12 text-book-cream shadow-xl border border-book-forest/20 relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-8">
-          <!-- Background decoration -->
-          <div class="absolute -right-16 -top-16 w-48 h-48 rounded-full bg-book-gold/10 filter blur-xl"></div>
-          
-          <div class="text-center md:text-left max-w-xl">
-            <span class="bg-book-terracotta text-book-cream px-3 py-1 rounded text-[10px] uppercase font-bold tracking-widest mb-4 inline-block">Active Promotion</span>
-            <h3 class="text-3xl font-bold font-serif text-book-gold mb-2">Back-to-School & Monsoon Reads</h3>
-            <p class="text-sm text-book-cream/80 leading-relaxed">Prepare for the upcoming academic term or cozy up with monsoon books! Get up to <strong class="text-book-gold">25% off</strong> on selected educational study guides and popular manga sets this month.</p>
-          </div>
-          
-          <div class="shrink-0 flex flex-col items-center gap-2">
-            <a href="contact.html?message=Hi%20Tweakbooks,%20I'd%20like%20to%20know%20more%20about%20your%20current%20discount%20offers" class="bg-book-terracotta text-book-cream hover:bg-book-gold hover:text-book-charcoal px-6 py-3 rounded-xl text-sm font-bold transition-all shadow-md shadow-book-terracotta/20 hover-lift">
-              Claim Discount Offers
-            </a>
-            <span class="text-[10px] text-book-cream/50 font-medium">Terms apply • Physical visit required</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Testimonials Section -->
-    <section class="py-20 bg-book-cream">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center max-w-2xl mx-auto mb-16">
-          <h2 class="text-3xl md:text-4xl font-extrabold font-serif text-book-charcoal mb-4">Loved by Local Readers</h2>
-          <p class="text-sm text-book-muted">Hear from our local students, manga binger-readers, and longtime customers who visit our shop in Bardoli.</p>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <!-- Testimonial 1 -->
-          <div class="glass-card p-6 rounded-2xl border border-book-muted/10 flex flex-col justify-between">
-            <p class="text-sm text-book-charcoal/80 italic leading-relaxed mb-6 font-serif">"Tweakbooks has been my go-to for reference manuals since engineering college days. Magan Lal always sources textbooks for us at cheap prices, and the buyback is very convenient!"</p>
-            <div class="flex items-center gap-3">
-              <div class="w-10 h-10 rounded-full bg-book-forest/10 text-book-forest flex items-center justify-center font-bold text-sm">AP</div>
-              <div>
-                <h5 class="text-sm font-bold text-book-charcoal">Amit Patel</h5>
-                <p class="text-[10px] text-book-muted">Civil Engineer, Bardoli</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Testimonial 2 -->
-          <div class="glass-card p-6 rounded-2xl border border-book-muted/10 flex flex-col justify-between">
-            <p class="text-sm text-book-charcoal/80 italic leading-relaxed mb-6 font-serif">"As a huge anime fan, finding physical manga volumes in Bardoli was tough until I found Tweakbooks. I love their daily rental system—it helps me read manga series affordably!"</p>
-            <div class="flex items-center gap-3">
-              <div class="w-10 h-10 rounded-full bg-book-forest/10 text-book-forest flex items-center justify-center font-bold text-sm">NS</div>
-              <div>
-                <h5 class="text-sm font-bold text-book-charcoal">Neha Shah</h5>
-                <p class="text-[10px] text-book-muted">Manga Reader & Student</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Testimonial 3 -->
-          <div class="glass-card p-6 rounded-2xl border border-book-muted/10 flex flex-col justify-between">
-            <p class="text-sm text-book-charcoal/80 italic leading-relaxed mb-6 font-serif">"I love their restored book collection. The refurbishing quality is top notch, and the binding is strong. I can support sustainable recycling and read my favorite bios for a fraction of the cost."</p>
-            <div class="flex items-center gap-3">
-              <div class="w-10 h-10 rounded-full bg-book-forest/10 text-book-forest flex items-center justify-center font-bold text-sm">KM</div>
-              <div>
-                <h5 class="text-sm font-bold text-book-charcoal">Karan Mehta</h5>
-                <p class="text-[10px] text-book-muted">Avid Reader & Educator</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Call to Action Banner -->
-    <section class="py-20 bg-book-sand/20 border-t border-book-sand">
-      <div class="max-w-4xl mx-auto text-center px-4 sm:px-6 lg:px-8">
-        <h2 class="text-3xl md:text-5xl font-extrabold font-serif text-book-charcoal mb-6 leading-tight">
-          Ready to Start Your <br>
-          <span class="text-book-forest italic">Next Reading Adventure?</span>
-        </h2>
-        <p class="text-book-muted text-base max-w-xl mx-auto mb-8">
-          Have questions about book availability, buybacks, or renting terms? Call or click to chat directly with Magan Lal on WhatsApp. We are here to help!
-        </p>
-        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-          <a href="https://wa.me/919328291864?text=Hi%20Tweakbooks,%20I%20have%20an%20enquiry" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto flex items-center justify-center gap-2 bg-book-forest text-book-cream px-8 py-4 rounded-xl text-base font-bold hover:bg-book-terracotta transition-all shadow-lg shadow-book-forest/10 hover-lift">
-            <!-- Whatsapp svg -->
-            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.6.95 3.182 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.965C16.59 1.977 14.113.953 11.487.953c-5.447 0-9.877 4.377-9.882 9.807-.001 1.636.434 3.232 1.258 4.654l-.993 3.633 3.738-.971c1.378.752 2.924 1.15 4.546 1.155zM16.55 13.66c-.266-.134-1.58-.78-1.823-.867-.243-.088-.419-.133-.596.133-.177.266-.685.867-.84 1.044-.154.177-.31.199-.576.066-.266-.134-1.12-.412-2.13-1.319-.787-.702-1.318-1.57-1.473-1.836-.155-.266-.017-.41.117-.543.12-.12.266-.31.399-.465.133-.155.177-.266.266-.443.089-.177.044-.332-.022-.465-.067-.133-.596-1.439-.817-1.971-.216-.519-.452-.448-.622-.457-.16-.008-.344-.01-.529-.01-.186 0-.488.07-.743.348-.256.278-.977.956-.977 2.333 0 1.378 1.002 2.71 1.141 2.898.14.189 1.973 3.01 4.78 4.218.667.288 1.188.46 1.594.59.67.214 1.28.184 1.763.112.539-.08 1.581-.647 1.802-1.272.22-.625.22-1.162.155-1.272-.066-.111-.243-.177-.508-.31z"/></svg>
-            Chat on WhatsApp
-          </a>
-          <a href="tel:+919328291864" class="w-full sm:w-auto flex items-center justify-center gap-2 bg-book-sand hover:bg-book-sand/80 text-book-charcoal border border-book-muted/20 px-8 py-4 rounded-xl text-base font-bold transition-all hover-lift">
-            <svg class="w-5 h-5 text-book-forest" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-2.824-1.802-5.18-4.156-6.98-6.979l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
-            Call +91 93282 91864
-          </a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- Sticky Float Contact Widget (visible on scroll) -->
-  <div id="sticky-contact-bar" class="fixed bottom-6 left-6 right-6 md:left-auto md:right-8 md:w-80 z-45 transform translate-y-24 opacity-0 transition-all duration-500 ease-out">
-    <div class="glass-card rounded-2xl p-4 shadow-2xl border border-book-muted/15 flex items-center justify-between gap-3">
-      <div class="hidden sm:block text-left">
-        <p class="text-[9px] font-bold uppercase tracking-wider text-book-muted">Tweakbooks</p>
-        <p class="text-xs font-semibold text-book-charcoal">Quick Enquiry</p>
-      </div>
-      <div class="flex items-center gap-2 w-full sm:w-auto">
-        <a href="tel:+919328291864" class="flex-1 sm:flex-initial flex items-center justify-center gap-1.5 bg-book-sand hover:bg-book-sand/80 text-book-charcoal px-4 py-2.5 rounded-xl text-xs font-bold transition-all border border-book-muted/10">
-          <svg class="w-3.5 h-3.5 text-book-forest" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-2.824-1.802-5.18-4.156-6.98-6.979l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
-          Call
-        </a>
-        <a href="https://wa.me/919328291864?text=Hi%20Tweakbooks,%20I%20have%20an%20enquiry" target="_blank" rel="noopener noreferrer" class="flex-1 sm:flex-initial flex items-center justify-center gap-1.5 bg-book-forest hover:bg-book-terracotta text-book-cream px-4 py-2.5 rounded-xl text-xs font-bold transition-all shadow-md shadow-book-forest/10">
-          <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.514 2.266 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.6.95 3.182 1.449 4.825 1.451 5.436 0 9.86-4.37 9.864-9.799.002-2.63-1.023-5.101-2.885-6.965C16.59 1.977 14.113.953 11.487.953c-5.447 0-9.877 4.377-9.882 9.807-.001 1.636.434 3.232 1.258 4.654l-.993 3.633 3.738-.971c1.378.752 2.924 1.15 4.546 1.155zM16.55 13.66c-.266-.134-1.58-.78-1.823-.867-.243-.088-.419-.133-.596.133-.177.266-.685.867-.84 1.044-.154.177-.31.199-.576.066-.266-.134-1.12-.412-2.13-1.319-.787-.702-1.318-1.57-1.473-1.836-.155-.266-.017-.41.117-.543.12-.12.266-.31.399-.465.133-.155.177-.266.266-.443.089-.177.044-.332-.022-.465-.067-.133-.596-1.439-.817-1.971-.216-.519-.452-.448-.622-.457-.16-.008-.344-.01-.529-.01-.186 0-.488.07-.743.348-.256.278-.977.956-.977 2.333 0 1.378 1.002 2.71 1.141 2.898.14.189 1.973 3.01 4.78 4.218.667.288 1.188.46 1.594.59.67.214 1.28.184 1.763.112.539-.08 1.581-.647 1.802-1.272.22-.625.22-1.162.155-1.272-.066-.111-.243-.177-.508-.31z"/></svg>
-          WhatsApp
-        </a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Footer -->
-  <footer class="bg-book-charcoal text-book-sand pt-16 pb-8 border-t border-book-muted/20">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
-      <div>
-        <img src="assets/images/logo.svg" alt="Tweakbooks Logo" class="h-10 w-auto mb-6 brightness-0 invert">
-        <p class="text-sm text-book-sand/70 leading-relaxed mb-6">Serving the Bardoli community since 1996 with high-quality literature, student textbooks, and eco-friendly refurbishing.</p>
-        <div class="flex items-center space-x-4">
-          <a href="#" class="text-book-sand/50 hover:text-book-gold transition-colors" aria-label="Facebook">
-            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c4.56-.93 8-4.96 8-9.75z"/></svg>
-          </a>
-          <a href="#" class="text-book-sand/50 hover:text-book-gold transition-colors" aria-label="Instagram">
-            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
-          </a>
-        </div>
-      </div>
-      
-      <div>
-        <h4 class="text-book-gold font-serif text-sm font-semibold tracking-wider uppercase mb-6">Quick Links</h4>
-        <ul class="space-y-3.5 text-sm text-book-sand/80">
-          <li><a href="index.html" class="hover:text-book-gold transition-colors">Home</a></li>
-          <li><a href="about.html" class="hover:text-book-gold transition-colors">About Us</a></li>
-          <li><a href="services.html" class="hover:text-book-gold transition-colors">Services &amp; Renting</a></li>
-          <li><a href="genres.html" class="hover:text-book-gold transition-colors">Book Genres</a></li>
-          <li><a href="book-wiki.html" class="hover:text-book-gold transition-colors">Book Wiki Lookup</a></li>
-          <li><a href="contact.html" class="hover:text-book-gold transition-colors">Visit &amp; Contact Us</a></li>
-        </ul>
-      </div>
-      
-      <div>
-        <h4 class="text-book-gold font-serif text-sm font-semibold tracking-wider uppercase mb-6">Our Services</h4>
-        <ul class="space-y-3.5 text-sm text-book-sand/80">
-          <li>Buy New &amp; Used Books</li>
-          <li>Book Buyback Program</li>
-          <li>Eco-Friendly Refurbishing</li>
-          <li>Per-Day Book Rentals</li>
-          <li>Festive Bookstore Discounts</li>
-          <li>Free Encyclopedia Lookup</li>
-        </ul>
-      </div>
-      
-      <div>
-        <h4 class="text-book-gold font-serif text-sm font-semibold tracking-wider uppercase mb-6">Contact Info</h4>
-        <ul class="space-y-3.5 text-sm text-book-sand/80">
-          <li class="flex items-start gap-2.5">
-            <svg class="w-5 h-5 text-book-gold shrink-0 mt-0.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"/><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"/></svg>
-            <span>Opp. Town Hall, Station Road, Bardoli, Gujarat - 394601</span>
-          </li>
-          <li class="flex items-center gap-2.5">
-            <svg class="w-5 h-5 text-book-gold shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-2.824-1.802-5.18-4.156-6.98-6.979l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"/></svg>
-            <a href="tel:+919328291864" class="hover:text-book-gold transition-colors">+91 93282 91864</a>
-          </li>
-          <li class="flex items-center gap-2.5">
-            <svg class="w-5 h-5 text-book-gold shrink-0" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/></svg>
-            <a href="mailto:enquiry@tweakbooks.in" class="hover:text-book-gold transition-colors">enquiry@tweakbooks.in</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-    
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 border-t border-book-muted/20 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-book-sand/60">
-      <p>&copy; <span id="copyright-year">2026</span> Tweakbooks. All rights reserved. Designed for Magan Lal, Bardoli.</p>
-      <div class="flex space-x-6">
-        <a href="#" class="hover:text-book-gold transition-colors">Privacy Policy</a>
-        <a href="#" class="hover:text-book-gold transition-colors">Terms of Service</a>
-        <a href="sitemap.xml" class="hover:text-book-gold transition-colors">Sitemap</a>
-      </div>
-    </div>
-  </footer>
-
-  <script src="assets/js/main.js" defer></script>
+    <!-- App JS script link -->
+    <script src="app.js"></script>
 </body>
+
 </html>
